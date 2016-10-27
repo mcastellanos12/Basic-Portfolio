@@ -1,33 +1,77 @@
 <!Doctype html>
 <html>
-  <head>
+
+<head>
     <title>Contact Me</title>
-    <link rel="stylesheet" type="text/css" href="PortfolioMain.css">
-  </head>
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Main.css">
+</head>
+
 <body>
-<ul class="topnav" id="myTopnav">
-  <li><a href="#Contact">Contact</a></li>
-  <li><a href="#Portfolio">Portfolio</a></li>
-  <li><a href="#About">About</a></li>
-  <li class="icon">
-</ul>
-<h1>Michelle Castellanos</h1>
-<h1>Contact</h1>
+
+<header>
+<h2 id="name">Michelle Castellanos</h2>
+    <nav>
+      <a href="Index.html" class="nav">About</a>
+      <a href="Portfolio.html" class="nav">Portfolio</a>
+      <a href="Contact.html" class="nav">Contact</a>
+    </nav>
+</header>
+
+<div class ="main">
+
+<h2 class="heading">Contact Me</h2>
+
+<hr>
+
 <form action="sign-in-url" method ="post">
 
 	<label for="Name">Name:</label>
+
+<br>
+
 	<input id="Name" type="text" placeholder="John Smith" required>
 
+<br>
+
 	<label for="Email">Email:</label>
+
+<br>
+
 	<input id="Email" type="email" placeholder="example@gmail.com" required>
+
+<br>
 	
 	<label for="Message"> Message:</label>
-	<input type="text">
+
+<br>
+
+	<input id="Message" type="text">
+
+<br>
 
 	<input type="submit">
+</form>
 
- <footer>
-  <p>Copyright 2016 Michelle Castellanos</p>
+</div>
+
+<div id="sidebar">
+
+  <h2 class="heading"><center>Connect With Me</center></h2>
+ 
+  <hr>
+
+<center>
+    <img src="Assets/Images/Linkedin.png">
+    <img src="Assets/Images/stackoverflow.png">
+    <img src="Assets/Images/Github.png">
+</center>
+
+</div>
+ 
+<footer>
+  <p> &#169; Copyright 2016 Michelle Castellanos</p>
 </footer>
+
 </body>
 </html>
